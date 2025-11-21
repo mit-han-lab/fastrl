@@ -80,7 +80,7 @@ bash examples/bench_sd.sh
 > Eagle is very sensitive to the prefix. Ensure the prefix matches the RL training prefix for accurate benchmarks. A few tuning steps are sufficient for adaptation if needed.
 
 
-#### Step 3: Model Preparation
+#### Step 3: End-to-end Training
 
 We provide complete end-to-end scripts for 7B and 32B models, for both single-node and multi-node training.
 
