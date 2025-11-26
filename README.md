@@ -19,11 +19,14 @@ Efficient Reinforcement Learning for Language Models 🚀
 
 FastRL is an open-source framework for high-efficiency reasoning RL training, powered by our system TLT (Taming the Long Tail), a new approach that eliminates the long-tail rollout bottleneck in reasoning LLMs through adaptive speculative decoding. With FastRL, you can train large reasoning models drastically faster, using lossless decoding, opportunistic drafter training, and adaptive SD scheduling.
 
-## Releases 📰
+## News 📰
 
 <strong>[2025/11]</strong> TLT paper is released on arXiv: [Taming the Long Tail: Efficient Reinforcement Learning for Language Models via Adaptive Speculative Decoding](https://arxiv.org/abs/2511.16665)
 
+<strong>[2025/11]</strong> 🎉 TLT is accepted by [ASPLOS 2026](https://www.asplos-conference.org/asplos2026/)!
+
 ## Key Features ✨
+
 🧠 **Lossless On-Policy RL Training** 
 
 + FastRL preserves the exact behavior of the underlying RL algorithm by applying mathematically lossless speculative decoding that never alters rollout distributions. 
@@ -116,14 +119,13 @@ FastRL is built upon and inspired by several outstanding open-source projects: [
 
 
 ## Citation
-If you use FastRL, please consider citing our paper:
+If you find FastRL helpful or relevant to your research, please kindly cite our paper:
 ```bibtex
-@article{TLT,
+@inproceedings{TLT,
       title={Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter}, 
       author={Qinghao Hu and Shang Yang and Junxian Guo and Xiaozhe Yao and Yujun Lin and Yuxian Gu and Han Cai and Chuang Gan and Ana Klimovic and Song Han},
-      year={2025},
-      journal = {CoRR},
-      volume={abs/2511.16665},
-      url={https://arxiv.org/abs/2511.16665}
+      booktitle={Proceedings of the 31th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
+      year={2026},
+      series={ASPLOS '26}
 }
 ```
