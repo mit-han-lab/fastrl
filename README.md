@@ -56,7 +56,7 @@ pip install -e "python[all]"
 # Install flash_attn
 pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
 
-# Install FastRL
+# Install FastRL (under the `fastrl` directory)
 pip install -e .
 ```
 
