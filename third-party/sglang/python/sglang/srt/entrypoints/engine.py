@@ -208,7 +208,11 @@ class Engine(EngineBase):
             bootstrap_room=bootstrap_room,
             data_parallel_rank=data_parallel_rank,
         )
-        loop = asyncio.get_event_loop()
+        try:
+            loop = asyncio.get_event_loop()
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
         generator = self.tokenizer_manager.generate_request(obj, None)
 
         if stream:
