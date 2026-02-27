@@ -21,7 +21,7 @@ FastRL is an open-source framework for high-efficiency reasoning RL training, po
 
 ## News 📰
 
-<strong>[2026/02]</strong> 🏆 TLT is featured on the front page of [MIT News](https://news.mit.edu/2026/new-method-could-increase-llm-training-efficiency-0226)!
+<strong>[2026/02]</strong> 🏆 TLT is featured on the MIT homepage and the cover of [MIT News](https://news.mit.edu/2026/new-method-could-increase-llm-training-efficiency-0226)!
 
 <strong>[2025/11]</strong> TLT paper is released on arXiv: [Taming the Long Tail: Efficient Reinforcement Learning for Language Models via Adaptive Speculative Decoding](https://arxiv.org/abs/2511.16665)
 
